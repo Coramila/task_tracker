@@ -24,7 +24,8 @@ header{
 
 header img {
     border-radius: 30px;
-    margin: 1rem;
+    /* margin: 1rem; */
+    scale: calc(0.9);
 }
 
 @media only screen and (max-width: 768px){
