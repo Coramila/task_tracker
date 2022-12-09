@@ -1,4 +1,4 @@
 export default interface Itarefa{
-    duracaoemSegundos: number,
+    duracaoEmSegundos: number,
     descricao: string
 }
