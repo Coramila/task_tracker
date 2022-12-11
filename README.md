@@ -1,24 +1,37 @@
-# task_tracker
+# e-commerce Web site first page
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Table of contents
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Overview
+
+This page consists in a Task tracker in which the user can monitorate the spended time in each a task.
+
+### Screenshot
+
+
+
+### Built with
+
+- HTML5
+- Bulma
+- Vue3
+- TypeScript
+
+
+
+### What I learned
+
+With this project I have learned a bit of VUE 3 use and TypeScript as well.
+
+
+## Author
+
+- Website - [Camila Carvalho](https://www.linkedin.com/in/carvalho-camila/)
