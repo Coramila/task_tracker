@@ -35,6 +35,11 @@
                                 <i class="fas fa-pencil-alt"></i>
                             </span>
                         </RouterLink>
+                        <button class="button m1-2 is-danger">
+                            <span class="icon is-small">
+                                <i class="fas fa-trash"></i>
+                            </span>
+                        </button>
                     </td>
                 </tr>
             </tbody>
