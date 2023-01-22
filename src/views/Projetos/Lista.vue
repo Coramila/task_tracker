@@ -35,7 +35,7 @@
                                 <i class="fas fa-pencil-alt"></i>
                             </span>
                         </RouterLink>
-                        <button class="button m1-2 is-danger">
+                        <button class="button m1-2 is-danger" @click="excluir(projeto.id)">
                             <span class="icon is-small">
                                 <i class="fas fa-trash"></i>
                             </span>
@@ -55,11 +55,19 @@ import { useStore } from '@/store';
 
 export default defineComponent({
     name: "ListaVue",
+    methods: {
+        excluir(id: string) {
+            this.store.commit('EXCLUIR_PROJETO', id)
+
+        }
+    },
+
 
     setup() {
         const store = useStore()
         return {
-            projetos: computed(() => store.state.projetos)
+            projetos: computed(() => store.state.projetos),
+            store
         }
     }
 })
