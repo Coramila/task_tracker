@@ -53,6 +53,7 @@ import { computed, defineComponent } from 'vue';
 import { useStore } from '@/store';
 
 
+
 export default defineComponent({
     name: "ListaVue",
     methods: {
@@ -65,6 +66,7 @@ export default defineComponent({
 
     setup() {
         const store = useStore()
+        store.dispatch('OBTER_PROJETOS')
         return {
             projetos: computed(() => store.state.projetos),
             store
